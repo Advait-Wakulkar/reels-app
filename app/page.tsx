@@ -28,11 +28,12 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className="grid gap-2 w-full max-w-xs">
       <Input
         placeholder="Email"
         value={email}
-        onChange={(e) => setEmail(e.target.value)}
+        onChange={(e) => setEmail(e.target.value)
+        }
       />
       <Input
         placeholder="Password"
